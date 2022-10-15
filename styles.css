@@ -1,0 +1,960 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --------------------------------------------------- */
+/* ------------------   Desktop   -------------------- */
+/* --------------------------------------------------- */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 16px 70px; 
+}
+
+.logo {
+    width: 116px;
+    margin-bottom: 100px;
+}
+
+.top-icons > * {
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.top-icon {
+    width: 22px;
+}
+
+.top-icon:not(:first-child) {
+    margin-left: 30px;
+}
+
+.header-common {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+/* ----------    How to Watch Section | Desktop Version   ---------- */
+
+.how-to {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.left-howto{
+    width: 60%;
+}
+
+.right-howto {
+    width: 30%;
+    position: relative;
+}
+
+.howto-header {
+    font-family: 'Roboto Slab', serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 82px;
+}
+
+.howto-text {
+    font-size: 20px;
+    width:65%;
+    margin-top: 20px;
+}
+
+.howto-image {
+    width: 304px;
+}
+
+.howto-shadow {
+    position: absolute;
+    z-index: -1;
+    right: 30px;
+    bottom: -15px;
+}
+
+.quote {
+    color: #fff;
+    margin-top: 70px;
+    margin-bottom: 150px;
+}
+
+.quote-wrap {
+    margin: auto;
+    background-color: #1E4681;
+    width: 35%;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.quote-text {
+    font-size: 25px;
+}
+
+.quote-author {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: right;
+}
+
+/* ----------    Course Section | Desktop Version  ---------- */
+
+.course-top {
+    margin-top: 50px;
+    margin-bottom: 82px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-article {
+    font-size: 24px;
+    line-height: 150%;
+    width: 60%;
+}
+
+.course-article-text:first-child {
+    margin-bottom: 44px;
+}
+
+.course-image {
+    position: relative;
+}
+
+.rejissor {
+    width: 314px;
+}
+
+.rejissor-shadow {
+    width: 366px;
+    position: absolute;
+    right: -25px;
+    bottom: 60px;
+    z-index: -1;
+}
+
+.course-footer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+}
+
+.equipment-image {
+    width: 232px;
+    position: relative;
+}
+
+.equipment-shadow {
+    width: 190px;
+    position: absolute;
+    bottom: -10px;
+    left: 30px;
+    z-index: -1;
+}
+
+.course-footer-item {
+    width: 15%;
+}
+
+.course-footer-item:first-child {
+    width: 25%;
+}
+
+.course-footer-header {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.course-footer-text {
+    font-size:18px;
+    line-height: 130%;
+}
+
+/* ----------    Format Section | Desktop Version  ---------- */
+
+.format {
+    margin-top: 162px;
+    margin-bottom: 220px;
+}
+
+.format-articles {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.format-item {
+    width: 25%;
+}
+
+.format-header {
+    font-size: 25px;
+    color: #1E4681;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.format-text {
+    font-size: 18px;
+}
+
+/* ----------    Topics Section | Desktop Version  ---------- */
+
+.topics-list {
+    width: 55% ;
+    font-size: 24px;
+    line-height: 150%;
+    margin: 54px 0 230px 25px;
+}
+
+/* ----------    Program Section | Desktop Version  ---------- */
+
+.container-program {
+    max-width: 1300px;
+}
+
+.program-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 110px ;
+    margin-bottom: 120px; 
+}
+
+.program-item {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.program-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px 0 40px 25px;
+}
+
+.program-wrap .program-item:nth-child(7) {
+    margin-right: 20px;
+}
+
+.program-wrap .program-item:last-child {
+    margin-right: auto; 
+}
+
+.program-item:last-child .program-title {
+    margin-bottom: 10px;
+}
+
+.program-date, .program-author {
+    font-size:25px;
+    margin-left: 25px;
+    line-height: 150%;
+}
+
+/* ----------    Participants Section | Desktop Version  ---------- */
+
+.participants {
+    background-color: #EFEFEF;
+    padding-top: 90px;
+    padding-bottom: 100px;
+}
+
+.participants-box {
+    margin-top: 66px;
+    background-color: #fff;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    padding: 40px 46px;
+    font-size: 20px;
+    line-height: 150%;
+    width: 60%;
+}
+
+.participants-image {
+    margin-top: 40px;
+    width: 190px;
+}
+
+.participants-footer {
+    position: relative;
+}
+
+.participants-author{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    left:230px;
+    top: 80px;
+}
+
+.facebook {
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    left:230px;
+    bottom: 30px;
+}
+
+.facebook-icon {
+    width: 32px;
+}
+
+/* ----------    Price Section | Desktop Version  ---------- */
+
+.price {
+    background-color: #9DC9C8;
+    padding: 182px 0 200px 0;
+}
+
+.price-title {
+    width: 80%;
+    margin-bottom: 70px;
+}
+
+.price-word {
+    font-size: 25px;
+}
+
+.price-course {
+    font-size: 80px;
+    margin-bottom: 64px;
+}
+
+.price-article {
+    display: flex;
+}
+
+.price-item {
+    width: 30%;
+}
+
+.price-item:first-child {
+    margin-right: 80px;
+}
+
+.price-header {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.price-text {
+    font-size: 18px;
+    width: 90%;
+}
+
+/* ----------    Footer Section | Desktop Version  ---------- */
+
+footer {
+    background-color: #000;
+    height: 390px;
+    position: relative;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.footer_logo {
+    width: 116px;  
+}
+
+ .footer-contacts > a {
+    display: block;  
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    padding:7px 0;
+}
+
+.contact-icon {
+    width: 27px;
+    margin-right:17px;
+}
+
+.social-icon {
+    width: 34px;
+}
+
+.social > a:not(:first-child) {
+    margin-left: 20px;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 18px;
+    height:80px ;
+    position: absolute;
+    bottom: 5px;
+}
+
+/* --------------------------------------------------- */
+/* ------------------    Tablet   -------------------- */
+/* --------------------------------------------------- */
+
+@media (max-width:1279px) {
+
+    .logo {
+        width: 64px;
+        margin-bottom: 20px; 
+    }
+
+    .top-icons > * {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+    .top-icon {
+        width: 12px;
+    }
+
+    .top-icon:not(:first-child) {
+        margin-left: 5px;
+    }
+
+    .header-common {
+        font-size: 32px;
+    }
+
+/* ----------    How to Watch Section | Tablet Version   ---------- */
+
+    .left-howto {
+        width: 50%;
+    }
+    .right-howto {
+        width: 35%;
+    }
+
+    .howto-header {
+        font-size: 46px;
+        line-height: 47px;
+    }
+
+    .howto-text {
+        font-size: 12px;
+    }
+
+    .quote {
+        margin-top: 40px;
+        margin-bottom: 100px;
+    }
+    .quote-text {
+        font-size: 14px;
+    }
+
+    .quote-author {
+        font-size:12px;
+    }
+
+    .howto-image {
+        width: 176px;
+    }
+
+    .howto-shadow {
+        width: 158px;
+        bottom: -5px;
+        left: 15px;
+    }
+
+    .quote-wrap {
+        width: 30%;
+    }
+
+/* ----------    Course Section | Tablet Version  ---------- */
+
+.course-top {
+    margin-top: 30px;
+    margin-bottom: 42px;
+}
+
+.course-article {
+    font-size: 14px;
+    width: 70%;
+}
+
+.course-article-text:first-child {
+    margin-bottom: 26px;
+}
+
+.rejissor {
+    width: 180px;
+}
+
+.rejissor-shadow {
+    width: 212px;
+    bottom: -15px;
+    left: -20px;
+}
+
+.equipment-image {
+    width: 134px;
+}
+
+.equipment-shadow {
+    width: 110px;
+    bottom: -5px;
+    left: 20px;
+}
+
+.course-footer-item {
+    min-width: 10%;
+}
+
+.course-footer-item:first-child {
+    width: 15%;
+}
+
+.course-footer-header {
+    font-size: 15px;
+}
+
+.course-footer-text {
+    font-size:11px;
+}
+
+/* ----------    Format Section | Tablet Version  ---------- */
+
+.format {
+    margin-top: 100px;
+    margin-bottom: 126px;
+}
+
+
+.format-articles {
+    width: 80%;
+    margin-top: 70px;
+}
+
+.format-item {
+    width: 20%;
+}
+
+.format-header {
+    font-size: 15px;
+}
+
+.format-text {
+    font-size: 11px;
+}
+
+/* ----------    Topics Section | Tablet Version  ---------- */
+
+.topics-list {
+    font-size: 14px;
+    margin: 34px 0 130px 15px;
+}
+
+/* ----------    Program Section | Tablet Version  ---------- */
+
+.program-wrap {
+    margin-top: 74px;
+    margin-bottom: 52px ;
+}
+
+.program-title {
+    font-size: 17px;
+}
+
+.program-date, .program-author {
+    font-size:14px;
+}
+
+/* ----------   Participants Section | Tablet Version   ---------- */
+
+.participants-box {
+    font-size: 12px;
+}
+
+.participants-author {
+    font-size: 17px;
+    left: 120px;
+    top: 65px;
+}
+
+.participants-image {
+    width: 100px;
+}
+.facebook-icon {
+    width: 18px;
+}
+
+.facebook {
+    left: 120px;
+    bottom: 20px;
+}
+
+/* ----------    Price Section | Tablet Version  ---------- */
+
+.price {
+    padding: 100px 0 118px 0;
+}
+
+.price-title {
+    margin-bottom: 34px
+}
+
+.price-item {
+    width: 20%;
+}
+
+.price-word {
+    font-size: 14px;
+}
+
+.price-course {
+    font-size: 46px;
+    margin-bottom: 40px;
+}
+
+.price-header {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.price-text {
+    font-size: 10px;
+}
+
+/* ----------   Footer Section | Tablet Version   ---------- */
+
+footer {
+    height: 230px;   
+}
+
+.footer-top {
+    margin-top: 22px;
+    margin-bottom: 6px;
+}
+
+.footer-logo {
+    width: 66px;
+}
+
+.contact-icon{
+    width: 16px;
+}
+
+.footer-contacts a {
+    font-size: 14px;
+}
+
+.social-icon {
+    width: 20px;
+}
+
+.copyright {
+    font-size: 10px;
+    height:30px ;
+}
+
+}
+
+/* --------------------------------------------------- */
+/* ------------------    Mobile   -------------------- */
+/* --------------------------------------------------- */
+
+@media (max-width:991px) {
+
+    .logo {
+        width: 52px;
+        margin-bottom: 40px;
+    }
+
+    .header-common {
+        font-size: 26px;
+    }
+
+/* ----------   How to Watch Section | Mobile  ---------- */
+
+    .how-to {
+        margin-top: 20px;
+    }
+
+    .top-icons > * {
+        font-size: 10px;
+        margin-right: 2px;
+    }
+
+    .top-icon {
+        width: 10px;
+    }
+
+    .top-icon:not(:first-child) {
+        margin-left: 10px;
+    }
+
+    .how-to{
+        flex-direction: column;
+    }
+
+    .left-howto {
+        width: 100%;
+    }
+
+    .right-howto {
+        width: 140px;
+        align-self: flex-end;
+    }
+
+    .howto-header {
+        font-size: 37px;
+        line-height: 38px;
+    }
+
+    .howto-text {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .quote {
+        width: 70%;
+        margin-bottom: 70px;
+    }
+
+    .quote-wrap {
+        margin: 0;
+        width: 100%;
+    }
+
+    .quote-text {
+        font-size: 11px;
+    }
+
+    .quote-author {
+        font-size:10px;
+    }
+
+    .howto-image {
+        width: 140px;
+        position: relative;
+    }
+    .howto-shadow {
+       position: absolute;
+        width: 128px;
+        bottom: -5px;
+        left: 10px;
+    }
+/* ----------    Course Section | Mobile Version  ---------- */
+
+.course-top {
+    margin-top: 24px;
+    margin-bottom: 46px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course-article {
+    font-size: 12px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.course-article-text:first-child {
+    margin-bottom: 20px;
+}
+
+.rejissor {
+    width: 146px;
+}
+
+.rejissor-shadow {
+    width: 170px;
+    bottom: -10px;
+    left: -15px;
+}
+
+.course-footer {
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.course-footer-item {
+    width: 35%;
+    margin-bottom: 24px;
+}
+
+.course-footer-item:first-child {
+    display: none;
+}
+
+.equipment-shadow {
+    display: none;
+}
+ 
+.course-footer-header {
+    font-size: 12px;
+}
+
+.course-footer-text {
+    font-size:10px;
+}
+
+/* ----------    Format Section | Mobile Version  ---------- */
+
+.format {
+    margin-top: 50px;
+    margin-bottom: 76px;
+}
+
+.format-articles {
+    display: flex;
+    flex-direction: column;
+    height: 240px;
+    margin-top: 32px;
+}
+
+.format-item {
+    width: 60%;
+}
+
+.format-header {
+    font-size: 12px;
+}
+
+.format-text {
+    font-size: 10px;
+}
+
+/* ----------    Topics Section | Mobile Version  ---------- */
+
+.topics-list {
+    width: 100%;
+    font-size: 12px;
+    margin: 24px 0 66px 15px;
+}
+
+/* ----------    Program Section | Moobile Version  ---------- */
+
+.program-wrap {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px;
+    margin-bottom: 46px;
+}
+
+.program-item {
+    width: 65%;
+}
+
+.program-title {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.program-date, .program-author {
+    font-size:12px;
+}
+
+.program-wrap .program-item:nth-child(7) {
+    margin-right: 0;
+}
+
+.program-wrap .program-item:last-child {
+    margin-right:initial;
+}
+
+/* ----------   Participants Section | Mobile Version   ---------- */
+
+.participants-box {
+    padding: 30px ;
+    width: 100%;
+}
+
+/* ----------    Price Section | Mobile Version  ---------- */
+
+.price {
+    padding: 64px 0;
+}
+
+.price-title {
+    margin-bottom: 28px;
+}
+
+.price-word {
+    font-size: 12px;
+}
+
+.price-course {
+    font-size: 37px;
+    margin-bottom: 30px;
+}
+
+.price-article {
+    justify-content: space-between;
+}
+
+.price-item {
+    width: 40%;
+}
+
+.price-header {
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.price-text {
+    font-size: 10px;
+}
+
+/* ----------   Footer Section | Mobile Version   ---------- */
+
+footer {
+    height: 250px;
+    position: relative;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.footer_logo {
+    width: 52px;
+}
+
+.footer-contacts > a {
+    padding: 4px 0;
+}
+
+.contact-icon{
+    width: 12px;
+}
+
+.footer-contacts a {
+    font-size: 12px;
+}
+
+.social {
+    position: absolute;
+    top: 80px;
+}
+
+.social-icon {
+    width: 14px;
+}
+
+.copyright {
+    font-size: 10px;
+}
+
+}
